@@ -7,7 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scroll Website</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <link 
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
 </head>
 
 <body>
@@ -15,12 +19,12 @@
   <nav class="navbar">
     <div class="navbar-container">
       <a href="#home" id="navbar-logo">COLOR</a>
-      <div class="navbar-toggle" id="mobile-manu">
+      <div class="navbar-toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </div>
-      <ul class="navbar-manu">
+      <ul class="navbar-menu">
         <li class="navbar-items">
           <a href="#home" class="navbar-links" id="home-page">Home</a>
         </li>
@@ -36,6 +40,31 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="hero-container">
+      <h1 class="hero-heading">Choose Your <span>COLOR</span></h1>
+      <p class="hero-description">Unlimited Posibilities</p>
+      <button class="main-btn"><a href="#">Explore</a></button>
+    </div>
+  </div>
+  
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main-container">
+      <div class="main_img-container">
+        <div class="main_img-card"><i class="fas fa-layer-group"></i></div>
+      </div>
+      <div class="main-content">
+        <h1>What do we do?</h1>
+        <h2>We help businesses scale</h2>
+        <p>Schedule a call to learn more about our services</p>
+        <button class="main-btn"><a href="#">Schedule Call</a></button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
